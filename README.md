@@ -1,6 +1,6 @@
 # Departamento Navarro 
 
-Sitio web para promocionar el departamento �Navarro� en Malarg�e. Incluye landing con galer�a y tarifas, registro/login de usuarios y una p�gina independiente de agradecimiento.
+Sitio web para promocionar el departamento Navarro en Malargue. Incluye landing con galer�a y tarifas, registro/login de usuarios y una p�gina independiente de agradecimiento.
 
 ## Requisitos
 - Python 3.10+
