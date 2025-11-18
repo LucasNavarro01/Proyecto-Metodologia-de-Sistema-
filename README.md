@@ -29,8 +29,10 @@ Sitio web para promocionar el departamento �Navarro� en Malarg�e. Incluye 
    ```
    Genera `users.db` con la tabla `users` y el usuario de ejemplo `admin/1234`.
 5. **Ejecutar**
-   En la terminal colocar "python app.py"
-   
+   En la terminal colocar
+   ```bash
+   python init_db.py
+   ```
    Navega a `http://127.0.0.1:5000`.
 
 ## Rutas principales
