@@ -1,0 +1,8 @@
+<h2>Carrito</h2>
+{% for item in items %}
+<div>
+  {{ item.product.name }} - ${{ item.product.price }} x {{ item.qty }} = ${{ item.subtotal }}
+</div>
+{% endfor %}
+<p><strong>Total: ${{ total }}</strong></p>
+<a href="/checkout">Finalizar compra</a> | <a href="/productos">Seguir comprando</a>

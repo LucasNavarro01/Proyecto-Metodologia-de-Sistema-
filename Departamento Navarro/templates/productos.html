@@ -1,0 +1,13 @@
+<h2>Productos</h2>
+{% for p in products %}
+<div style="border:1px solid #ccc; margin:10px; padding:10px;">
+  <img src="{{ url_for('static', filename=p.image) }}" width="100"><br>
+  <strong>{{ p.name }}</strong><br>
+  Precio: ${{ p.price }}<br>
+  <form method="post" action="/add/{{ p.id }}">
+    Cantidad: <input type="number" name="quantity" value="1" min="1">
+    <button type="submit">Agregar al carrito</button>
+  </form>
+</div>
+{% endfor %}
+<a href="/cart">Ver carrito</a> | <a href="/logout">Salir</a>
