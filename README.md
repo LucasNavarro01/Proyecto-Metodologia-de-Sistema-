@@ -1,4 +1,4 @@
-# Departamento Navarro � Aplicaci�n Flask
+# Departamento Navarro 
 
 Sitio web para promocionar el departamento �Navarro� en Malarg�e. Incluye landing con galer�a y tarifas, registro/login de usuarios y una p�gina independiente de agradecimiento.
 
@@ -7,7 +7,7 @@ Sitio web para promocionar el departamento �Navarro� en Malarg�e. Incluye 
 - pip
 - (Opcional) virtualenv
 
-## Configuraci�n local
+## Configuracion local
 1. **Clonar el repositorio**
    ```bash
    git clone https://github.com/LucasNavarro01/Proyecto-Metodologia-de-Sistema-.git
@@ -34,10 +34,10 @@ Sitio web para promocionar el departamento �Navarro� en Malarg�e. Incluye 
    Navega a `http://127.0.0.1:5000`.
 
 ## Rutas principales
-- `/` Landing con galer�a y tarifas.
+- `/` Landing con galeria y tarifas.
 - `/register` Registro de usuarios.
-- `/login` Inicio de sesi�n (almacena sesi�n y permite ver productos/carrito).
-- `/reserva` Mensaje de �Gracias por tu reserva� una vez realizado el.
+- `/login` Inicio de sesion (almacena sesi�n y permite ver productos/carrito).
+- `/reserva` Mensaje de ¡Gracias por tu reserva! una vez realizado el.
 
 
 
