@@ -2,6 +2,11 @@
 
 Sitio web para promocionar el departamento Navarro en Malargue. Incluye landing con galeria y tarifas, registro/login de usuarios y una pagina independiente de agradecimiento.
 
+## Tecnologias usadas
+- Flask
+- Python
+- Html
+
 ## Requisitos
 - Python 3.10+
 - pip
